@@ -9,5 +9,4 @@
 * Upload Images: User can upload images which will be stored locally
 
 ### This is submitted as Shopify Winter 2022 Developer intern Challenge.
-http://gagan352.pythonanywhere.com/ - automatic!
-[ImageRepo](http://gagan352.pythonanywhere.com/)
+Click here to visit the website [ImageRepo](http://gagan352.pythonanywhere.com/)
