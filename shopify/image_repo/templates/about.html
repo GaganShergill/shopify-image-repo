@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% extends "base.html" %}
+{% block bodyblock %}
+<div class="border-bottom">
+    <h1 class="text-center">Image Repository</h1>
+    <h3>Functionalities</h3>
+    <ol>
+        <li><strong>Sign Up: </strong>
+            User can sign up using his/her username which can
+            be alphanumeric. Following Validations are applied in password
+            field:
+            <ul>
+                <li>Checks the similarity between the password and a set of attributes of the user.</li>
+                <li>Checks whether the password meets a minimum length.</li>
+                <li>Checks whether the password occurs in a list of common passwords.</li>
+                <li>NumericPasswordValidator, which checks whether the password isn’t entirely numeric.</li>
+            </ul>
+
+        </li>
+        <li><strong>Log In: </strong>
+            User can sign in using his/her username and password.
+        </li>
+        <li><strong>Upload Images: </strong>
+            User can upload images which will be stored locally
+        </li>
+    </ol>
+</div>
+<div>
+    <h4>
+        This is submitted as Shopify Winter 2022 Developer
+        intern Challenge.
+    </h4>
+    <p class="font-weight-normal">Click <a href="https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit#">Here</a> for more details</p>
+</div>
+
+{% endblock %}

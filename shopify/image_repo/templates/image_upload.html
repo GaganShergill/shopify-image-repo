@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% extends "base.html" %}
+{% block bodyblock %}
+<h1 class="text-center" style="font-family: 'Oswald', sans-serif">Upload Image</h1>
+<form class="post-form form-group" method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" class="btn btn-primary" value="Upload">
+</form>
+{% endblock %}
