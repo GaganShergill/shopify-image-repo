@@ -6,7 +6,7 @@
   * Checks whether the password occurs in a list of common passwords.
   * Checks whether the password isn’t entirely numeric.
 * Log In: User can sign in using his/her username and password.
-* Upload Images: User can upload images which will be stored locally
+* Upload Images: User can upload images after aunthenticating themselves
 
 ### This is submitted as Shopify Winter 2022 Developer intern Challenge.
 Click here to visit the website [ImageRepo](http://gagan352.pythonanywhere.com/)
